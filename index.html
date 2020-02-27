@@ -5,43 +5,68 @@
     <title>IUG Training</title>
     <!-- Bootstrap core CSS → !-->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <style>
-        @font-face {
-            font-family: Hacen-AlgeriaFont;
-            src: url(fonts/Hacen-Algeria.ttf);
-            font-weight: bold;
-        }
-        body{
-            font-family: Hacen-AlgeriaFont;
-        }
-    </style>
+    <link href="css/custom-style.css" rel="stylesheet">
+
 </head>
 <body>
-<div class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">    <img src="img/logo.png" width="50" height="50" class="d-inline-block" alt="">
-        كلية تكنولوجيا المعلومات</a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">الرئيسية <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">دليل التدريب</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">لجنة التدريب</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">أخبار التدريب</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">الشركات</a>
-            </li>
-        </ul>
-        <button type="button" class="btn btn-primary rounded-pill">تسجيل دخول</button>
+<div class="container-fluid">
+    <div class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#">    <img src="img/logo.png" width="50" height="50" class="d-inline-block" alt="logo">
+            كلية تكنولوجيا المعلومات</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="">الرئيسية <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">دليل التدريب</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">لجنة التدريب</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">أخبار التدريب</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">الشركات</a>
+                </li>
+            </ul>
+            <button type="button" class="btn btn-primary btn-sm rounded-pill">تسجيل دخول</button>
+        </div>
+    </div>
+    <div class="slider">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/p.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/p.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/p.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>

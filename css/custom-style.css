@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Hacen-AlgeriaFont;
+    src: url(../fonts/Hacen-Algeria.ttf);
+    font-weight: bold;
+}
+body{
+    font-family: Hacen-AlgeriaFont;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1rem;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+    color: #04ADEB;
+}
+.slider{
+    height: 834px;
+}
+.carousel-indicators{
+    text-align: left;
+    float: left;
+    left: -12% !important;
+    right: inherit;        }
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
